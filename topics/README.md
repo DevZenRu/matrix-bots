@@ -1,6 +1,5 @@
 # devzen-matrix-topics-bot
 
-
 ## How to get Trello keys
 
 #### TRELLO_APP_KEY 
@@ -16,9 +15,9 @@ curl -X POST -H "Content-Type: application/json" \
 https://api.trello.com/1/tokens/{TRELLO_READ_TOKEN}/webhooks/ \
 -d '{
   "key": "{TRELLO_APP_KEY}",
-  "callbackURL": "https://{your_heroku_app_domain}/trellohook",
+  "callbackURL": "http://{your_domain_and_port}/trellohook",
   "idModel":"{TRELLO_IN_DISCUSSION_LIST_ID}",
-  "description": "DevZen_Webhook"
+  "description": "DevZen_Matrix_Webhook"
 }'
 ```
 
