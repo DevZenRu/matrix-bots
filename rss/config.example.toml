@@ -1,0 +1,12 @@
+user_id = "@devzen_bot:matrix.org"
+password = "secret_password"
+device_display_name = "DevZen Matrix Bot"
+feed_url = "https://devzen.ru/feed/"
+# proxy = "socks5://127.0.0.1:1080"
+interval_minutes = 60
+change_avatar = false
+# avatar_path = "avatar.jpg"
+recipients = [
+    "@alice:matrix.org",
+    "#some-room:matrix.org",
+]

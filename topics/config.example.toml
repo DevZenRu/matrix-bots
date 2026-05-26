@@ -1,0 +1,11 @@
+in_discussion_list_id = "your_trello_list_id_here"
+trello_app_key = "your_trello_app_key_here"
+trello_read_token = "your_trello_token_here"
+matrix_user_id = "@yourbot:matrix.org"
+matrix_password = "secret_password"
+matrix_device_display_name = "DevZen Topics Bot"
+recipients = [
+    "#some-room:matrix.org",
+]
+# port = 3000
+# host = "127.0.0.1"
